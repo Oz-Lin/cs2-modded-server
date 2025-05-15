@@ -29,7 +29,8 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          # tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/oz-lin/cs2-modded-server:latest
           platforms: linux/amd64
           labels: |
             ${{ steps.meta.outputs.labels }}
