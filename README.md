@@ -97,7 +97,7 @@ Mod | Version | Why
 [CS2 Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | Remove weapons from the map in CS2 as `mp_weapons_allow_map_placed 0` does not work.
 [GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.60` | A simple Counter-Strike 2 server plugin that helps admins manage game modes and map groups.
 [cs2-inventory-simulator](https://github.com/ianlucas/cs2-inventory-simulator-plugin)| `23` | Use any Weapon, Knife, Gloves, Agent, Music Kit, Pin or Graffiti. [How?](#skin-changer)
-[MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.8.9` | MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
+[MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.8.10` | MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
 [MapConfigurator](https://github.com/ManifestManah/MapConfigurator)| `1.0.2` | Allows you to quick and easily create unique configuration files for each map on your server.
 [K4-DamageInfo](https://github.com/KitsuneLab-Development/K4-DamageInfo) | `2.4.0` | Displays the amount of damage players have inflicted on the victim's HP and Armor, as well as the hit groups they have hit.
 [SimpleAdmin](https://github.com/connercsbn/SimpleAdmin/)| `0.1.2` | Adds basic administrator functions
@@ -105,9 +105,9 @@ Mod | Version | Why
 [SharpTimer](https://github.com/Letaryat/poor-sharptimer)| `0.3.1w` | SharpTimer is a simple Surf/KZ/Bhop/MG/Deathrun/etc CS2 Timer plugin
 [STFixes](https://github.com/rcnoob/STFixes)| `1.0.4` | A CounterStrikeSharp plugin with common fixes and features for SharpTimer servers
 [GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.1.2` | GunGame mode on Counter Strike Sharp
-[K4-Arenas](https://github.com/KitsuneLab-Development/K4-Arenas)| `2.0.4` | All in one arena plugin, that you can use to have a ladder type gameplay. Support all map, 2v2/3v3/etc [How?](#enable-k4-arenas)
-[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `2.1.0` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
-[CS2 Retakes Shared](https://github.com/B3none/cs2-retakes)| `2.1.0` | Shared library for CS2 Retakes.
+[K4-Arenas](https://github.com/KitsuneLab-Development/K4-Arenas)| `2.0.5` | All in one arena plugin, that you can use to have a ladder type gameplay. Support all map, 2v2/3v3/etc [How?](#enable-k4-arenas)
+[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `2.1.1` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
+[CS2 Retakes Shared](https://github.com/B3none/cs2-retakes)| `2.1.1` | Shared library for CS2 Retakes.
 [CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)| `2.0.0` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
 [CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `2.4.1` | Advanced weapon allocation for B3none/cs2-retakes
 [CS2 Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)| `1.0.0`| Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
@@ -768,6 +768,16 @@ First open terminal and `cd` into the folder where you unzipped the zips i.e.: `
 `rsync -rhavz --exclude "._*" --exclude ".DS_Store" --partial --progress --stats ./addons/ /Users/oz-lin/dev/personal/counter-strike/cs2-modded-server/game/csgo/addons/`
 
 If you are on Windows, from the [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp/releases) with runtime zip, you need to copy the `api`,`bin`, `dotnet` folders from the `/addons/counterstrikesharp` folder to `/game/csgo/addons/windows/counterstrikesharp` in this repo.
+
+### Quake Sounds
+
+Quake Sounds is enabled by default, so it will play the Quake Sound "HEADSHOT" for headshots, and for kill streaks different multi-kill sounds. Players can disable it by typing `!qs` in chat.
+
+If you **DO NOT** want to use it on your server, you need to modify two files using the [custom files](#custom-files) method.
+
+Copy `game/csgo/cfg/multiaddonmanager/multiaddonmanager.cfg` to `/custom_files/cfg/multiaddonmanager/multiaddonmanager.cfg` and delete `3461824328` from `mm_extra_addons` i.e.: so it reads `mm_extra_addons ""`. _This will stop it prompting your players to download the Quake Sound Pack when they join your server._
+
+Copy `game/csgo/cfg/settings/quake_sounds.cfg` to `/custom_files/cfg/settings/quake_sounds.cfg` and delete everything in the file so it is empty. _This will stop the plugin from loading._
 
 ### Skin changer
 
