@@ -87,7 +87,7 @@ Getting up and running:
 Mod | Version | Why
 --- | --- | ---
 [Metamod:Source](https://www.metamodsource.net/downloads.php?branch=dev) | `2.0.0-1353` | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `1.0.318` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
+[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `1.0.319` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
 [MultiAddonManager](https://github.com/Source2ZE/MultiAddonManager) | `1.4.1` | Allows you to use multiple workshop addons at once and have clients download them
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.1-Rebuild-04102024` | Fixes players not showing up in the server browser
 ~~[MovementUnlocker](https://github.com/Source2ZE/MovementUnlocker)| `1.4` | Removes max speed limitation from players on the ground, feels like CS:S [How?](#i-run-a-surfkzbhop-server-and-want-movementunlocker-and-cs2fixes-rampbugfix-permanently-on)~~
@@ -127,7 +127,8 @@ Mod | Version | Why
 [cs2-advanced-weapon-system](https://github.com/schwarper/cs2-advanced-weapon-system) | `1.4` | An advanced weapon system that gives full control over weapon attributes, dynamic adjustments to weapon behaviour, restrictions and advanced customisation.
 [cs2-OneInTheChamber](https://github.com/ShookEagle/cs2-OneInTheChamber) | `1.0.0` | One in the Chamber game mode.
 [cs2-quake-sounds](https://github.com/Kandru/cs2-quake-sounds) | `1.0.7` | Quake Sounds on multi kills.
-
+[CS2MenuManager](https://github.com/schwarper/CS2MenuManager) | `1.0.36` | A flexible and user-friendly menu system. 
+ 
 ## Share the love
 
 If you appreciate the project then please take the time to star the repository 🙏
