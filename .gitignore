@@ -3,6 +3,6 @@
 /steamcmd/
 .env copy
 /custom_files/*
-cs2
+#cs2
 tmp
 console.log
