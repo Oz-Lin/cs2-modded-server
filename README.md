@@ -95,7 +95,7 @@ Mod | Version | Why
 [CS2Fixes](https://github.com/Source2ZE/CS2Fixes)| `1.13-e8092cc` | A Metamod plugin with fixes and features aimed but not limited to zombie escape 
 [CS2_ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | Executes a command after server event (i.e. OnMapStart) or a delay.
 [CS2 Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | Remove weapons from the map in CS2 as `mp_weapons_allow_map_placed 0` does not work.
-[GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.62` | A simple Counter-Strike 2 server plugin that helps admins manage game modes and map groups.
+[GameModeManager](https://github.com/nickj609/GameModeManager)| `1.0.63` | A simple Counter-Strike 2 server plugin that helps admins manage game modes and map groups.
 [cs2-inventory-simulator](https://github.com/ianlucas/cs2-inventory-simulator-plugin)| `26` | Use any Weapon, Knife, Gloves, Agent, Music Kit, Pin or Graffiti. [How?](#skin-changer)
 [MatchZy](https://github.com/shobhit-pathak/MatchZy) | `0.8.10` | MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
 [MapConfigurator](https://github.com/ManifestManah/MapConfigurator)| `1.0.2` | Allows you to quick and easily create unique configuration files for each map on your server.
@@ -106,10 +106,9 @@ Mod | Version | Why
 [STFixes](https://github.com/rcnoob/STFixes)| `1.0.4` | A CounterStrikeSharp plugin with common fixes and features for SharpTimer servers
 [GunGame](https://github.com/ssypchenko/cs2-gungame)| `1.1.2` | GunGame mode on Counter Strike Sharp
 [K4-Arenas](https://github.com/KitsuneLab-Development/K4-Arenas)| `2.0.7` | All in one arena plugin, that you can use to have a ladder type gameplay. Support all map, 2v2/3v3/etc [How?](#enable-k4-arenas)
-[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `2.1.1` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
-[CS2 Retakes Shared](https://github.com/B3none/cs2-retakes)| `2.1.1` | Shared library for CS2 Retakes.
+[CS2 Retakes](https://github.com/B3none/cs2-retakes)| `2.1.2` | CS2 implementation of retakes. Based on the version for CS:GO by Splewis.
 [CS2 Instadefuse](https://github.com/B3none/cs2-instadefuse)| `2.0.0` | Allows a CT to instantly defuse the bomb when nothing can prevent defusal. Written in C# for CounterStrikeSharp.
-[CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `2.4.1` | Advanced weapon allocation for B3none/cs2-retakes
+[CS2 Retakes Allocator](https://github.com/yonilerner/cs2-retakes-allocator)| `2.4.2` | Advanced weapon allocation for B3none/cs2-retakes
 [CS2 Whitelist](https://github.com/PhantomYopta/CS2_WhiteList)| `1.0.0`| Restricts access to the server for SteamID members/employees listed in the whitelist. [How?](#enable-whitelist-so-only-a-list-of-people-can-play)
 [CS2 Executes](https://github.com/zwolof/cs2-executes)| `1.0.6` | CS2 implementation of executes. Based on the version for CS:GO by Splewis.
 [CS2 Advertisement](https://github.com/partiusfabaa/cs2-advertisement)| `1.0.8fix` | Allows you to show ads in chat/center/panel. [How?](#enable-advertisements)
@@ -120,15 +119,16 @@ Mod | Version | Why
 [AnnouncementBroadcaster](https://github.com/lengran/CS2AnnouncementBroadcaster) | `0.5` | Conditional messages, OnCommand, OnPlayerConnect, OnRoundStart, and TimerMsgs.
 [CS2-GameModifiers](https://github.com/Lewisscrivens/CS2-GameModifiers-Plugin) | `1.0.3` | CS2, but every round is a SURPRISE. Inspiration from [NadeKings video](https://www.youtube.com/watch?v=OQQBUFB56Iw).
 [CS2FunMatchPlugin](https://github.com/TitaniumLithium/CS2FunMatchPlugin) | `1.1.1` | Random fun mode every round
-[RollTheDice](https://github.com/Kandru/cs2-roll-the-dice) | `1.3.15` | Roll the dice to get either a positive or negative effect for the current round.
+[RollTheDice](https://github.com/Kandru/cs2-roll-the-dice) | `1.3.19` | Roll the dice to get either a positive or negative effect for the current round.
 [CS2-FixRandomSpawn](https://github.com/qstage/CS2-FixRandomSpawn) | `1.1.4` | Fixes ConVar `mp_randomspawn` for any game mode.
 [CS2-MutualScoringPlayers](https://github.com/qstage/CS2-MutualScoringPlayers) | `1.0.1` | Keeps score of kills between players.
-[CS2WarcraftMod](https://github.com/Wngui/CS2WarcraftMod) | `3.2.7` | An open-source Warcraft mod for CS2 featuring a fully-fledged RPG system.
+[CS2WarcraftMod](https://github.com/Wngui/CS2WarcraftMod) | `3.2.9` | An open-source Warcraft mod for CS2 featuring a fully-fledged RPG system.
 [cs2-advanced-weapon-system](https://github.com/schwarper/cs2-advanced-weapon-system) | `1.4` | An advanced weapon system that gives full control over weapon attributes, dynamic adjustments to weapon behaviour, restrictions and advanced customisation.
 [cs2-OneInTheChamber](https://github.com/ShookEagle/cs2-OneInTheChamber) | `1.0.0` | One in the Chamber game mode.
 [cs2-quake-sounds](https://github.com/Kandru/cs2-quake-sounds) | `1.0.7` | Quake Sounds on multi kills.
 [CS2MenuManager](https://github.com/schwarper/CS2MenuManager) | `1.0.36` | A flexible and user-friendly menu system. 
- 
+[CS2-WeaponSpeed](https://github.com/akanora/CS2-WeaponSpeed) | `1.1` | Gives players a speed boost when they fire specified weapons.
+
 ## Share the love
 
 If you appreciate the project then please take the time to star the repository 🙏
