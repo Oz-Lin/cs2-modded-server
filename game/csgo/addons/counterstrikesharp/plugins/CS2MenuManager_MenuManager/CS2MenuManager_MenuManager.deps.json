@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "CS2MenuManager_MenuManager/1.0.36": {
+      "CS2MenuManager_MenuManager/1.0.37": {
         "dependencies": {
           "CS2MenuManager": "1.0.0",
           "CounterStrikeSharp.API": "1.0.307"
@@ -570,14 +570,14 @@
         "runtime": {
           "CS2MenuManager.dll": {
             "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.36.0"
+            "fileVersion": "1.0.37.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "CS2MenuManager_MenuManager/1.0.36": {
+    "CS2MenuManager_MenuManager/1.0.37": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
