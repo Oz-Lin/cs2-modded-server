@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "CS2MenuManager/1.0.37": {
+      "CS2MenuManager/1.0.39": {
         "dependencies": {
-          "CounterStrikeSharp.API": "1.0.307",
+          "CounterStrikeSharp.API": "1.0.329",
           "Dapper": "2.1.66",
           "MySqlConnector": "2.4.0",
           "Tomlyn": "0.19.0"
@@ -17,7 +17,7 @@
           "CS2MenuManager.dll": {}
         }
       },
-      "CounterStrikeSharp.API/1.0.307": {
+      "CounterStrikeSharp.API/1.0.329": {
         "dependencies": {
           "McMaster.NETCore.Plugins": "1.4.0",
           "Microsoft.CSharp": "4.7.0",
@@ -30,12 +30,13 @@
           "Serilog.Extensions.Logging": "8.0.0",
           "Serilog.Sinks.Console": "5.0.0",
           "Serilog.Sinks.File": "5.0.0",
-          "System.Data.DataSetExtensions": "4.5.0"
+          "System.Data.DataSetExtensions": "4.5.0",
+          "Tomlyn": "0.19.0"
         },
         "runtime": {
           "lib/net8.0/CounterStrikeSharp.API.dll": {
-            "assemblyVersion": "1.0.307.0",
-            "fileVersion": "1.0.307.0"
+            "assemblyVersion": "1.0.329.0",
+            "fileVersion": "1.0.329.0"
           }
         }
       },
@@ -565,17 +566,17 @@
     }
   },
   "libraries": {
-    "CS2MenuManager/1.0.37": {
+    "CS2MenuManager/1.0.39": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CounterStrikeSharp.API/1.0.307": {
+    "CounterStrikeSharp.API/1.0.329": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zMBrAj5c4CJojZsERT2qquLy4HMJMOcb8oa2QisO7teYQXyPdZK7H+MZdPnEMCHjnTXl92swaHAzClLAPTG4lQ==",
-      "path": "counterstrikesharp.api/1.0.307",
-      "hashPath": "counterstrikesharp.api.1.0.307.nupkg.sha512"
+      "sha512": "sha512-UoMM4SUbHZv8GYxQ4y50iU4dDClm4YxJolFvf0DxxP9SSOU7zb/nsUhDI2iNKd/EBWrTXxKAFYBUk8bZMP+8mQ==",
+      "path": "counterstrikesharp.api/1.0.329",
+      "hashPath": "counterstrikesharp.api.1.0.329.nupkg.sha512"
     },
     "Dapper/2.1.66": {
       "type": "package",
