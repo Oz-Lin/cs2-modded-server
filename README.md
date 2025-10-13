@@ -92,7 +92,7 @@ Mod | Version | Why
 [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `1.0.340` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
 [MultiAddonManager](https://github.com/Source2ZE/MultiAddonManager) | `1.4.7` | Allows you to use multiple workshop addons at once and have clients download them
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.4` | Fixes players not showing up in the server browser
-~~[MovementUnlocker](https://github.com/Source2ZE/MovementUnlocker)| `1.7` | Removes max speed limitation from players on the ground, feels like CS:S [How?](#i-run-a-surfkzbhop-server-and-want-movementunlocker-and-cs2fixes-rampbugfix-permanently-on)~~
+~~[MovementUnlocker](https://github.com/Source2ZE/MovementUnlocker)| `1.8` | Removes max speed limitation from players on the ground, feels like CS:S [How?](#i-run-a-surfkzbhop-server-and-want-movementunlocker-and-cs2fixes-rampbugfix-permanently-on)~~
 ~~[CS2Fixes-RampbugFix](https://github.com/Interesting-exe/CS2Fixes-RampbugFix)| `9-16` | Minimizes rampbugs (needs to be enabled via `!settings` [How?](#i-run-a-surfkzbhop-server-and-want-movementunlocker-and-cs2fixes-rampbugfix-permanently-on))~~
 [CS2Fixes](https://github.com/Source2ZE/CS2Fixes)| `1.15.6-e71a7aa` | A Metamod plugin with fixes and features aimed but not limited to zombie escape 
 [CS2_ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | Executes a command after server event (i.e. OnMapStart) or a delay.
