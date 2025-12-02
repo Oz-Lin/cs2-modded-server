@@ -89,8 +89,8 @@ Getting up and running:
 Mod | Version | Why
 --- | --- | ---
 [Metamod:Source](https://www.metamodsource.net/downloads.php?branch=dev) | `2.0.0-1374` | Sits between the Game and the Engine, and allows plugins to intercept calls that flow between
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `1.0.346` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
-[MultiAddonManager](https://github.com/Source2ZE/MultiAddonManager) | `1.4.8` | Allows you to use multiple workshop addons at once and have clients download them
+[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) | `1.0.347` | Attempts to implement a .NET Core scripting layer on top of a Metamod Source Plugin, allowing developers to create plugins that interact with the game server in a modern language (C#)
+[MultiAddonManager](https://github.com/Source2ZE/MultiAddonManager) | `1.4.8` | Allows you to use multiple workshop addons at once and have clients download them [How?](#i-want-to-permanently-enable-multi-addon-manager)
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.5` | Fixes players not showing up in the server browser
 ~~[MovementUnlocker](https://github.com/Source2ZE/MovementUnlocker)| `1.9` | Removes max speed limitation from players on the ground, feels like CS:S [How?](#i-run-a-surfkzbhop-server-and-want-movementunlocker-and-cs2fixes-rampbugfix-permanently-on)~~
 ~~[CS2Fixes-RampbugFix](https://github.com/Interesting-exe/CS2Fixes-RampbugFix)| `16-10` | Minimizes rampbugs (needs to be enabled via `!settings` [How?](#i-run-a-surfkzbhop-server-and-want-movementunlocker-and-cs2fixes-rampbugfix-permanently-on))~~
@@ -513,6 +513,18 @@ Players can start a vote to change the game mode by typing `!gamemode` in chat.
 <img alt="Vote to change game mode" src="https://github.com/oz-lin/cs2-modded-server/blob/assets/assets/vote-gamemode.png?raw=true&sanitize=true">
 
 You can also start a specific game mode vote by typing `!comp`, `!wingman`, `!dm`, `!gg`, `!1v1`, `!awp`, `!aim`, `!prefire`, `!executes`, `!retake`, `!prac`, `!bhop`, `!kz`, `!surf`, `!minigames`, `!deathrun`, `!course`, `!scoutzknivez`, `!hns`, `!br`, `!soccer`, `!1.6`.
+
+### I want MatchZy to record demos automatically
+
+We have SourceTV defaultly disabled for the best compatability with the widest range of setups.
+
+If you want to enable SourceTV create this file using [custom files](#custom-files) steps (`/custom_files/cfg/custom_all.cfg`) and add `tv_enable 1` to it (you can look at other commands you can change [here](https://github.com/kus/cs2-modded-server/blob/master/game/csgo/cfg/server.cfg#L116)).
+
+`/custom_files/cfg/custom_all.cfg` is executed after the servers `server.cfg` is executed so you can make your changes and when you pull updates from here it won't overwrite your changes.
+
+If you specifically want MatchZy to make the demos make sure you leave `tv_autorecord 0` as MatchZy automatically starts and stops the recordings.
+
+To check SourceTV is working on your server type `tv_status` from the server console. You can also try record a short demo with `tv_record <filename>` and stop with `tv_stoprecord`.
 
 ### What maps are preconfigured with each mode?
 
