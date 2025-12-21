@@ -94,7 +94,7 @@ Mod | Version | Why
 [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) | `1.0.5` | Fixes players not showing up in the server browser
 ~~[MovementUnlocker](https://github.com/Source2ZE/MovementUnlocker)| `1.9` | Removes max speed limitation from players on the ground, feels like CS:S [How?](#i-run-a-surfkzbhop-server-and-want-movementunlocker-and-cs2fixes-rampbugfix-permanently-on)~~
 ~~[CS2Fixes-RampbugFix](https://github.com/Interesting-exe/CS2Fixes-RampbugFix)| `11-5` | Minimizes rampbugs (needs to be enabled via `!settings` [How?](#i-run-a-surfkzbhop-server-and-want-movementunlocker-and-cs2fixes-rampbugfix-permanently-on))~~
-[CS2Fixes](https://github.com/Source2ZE/CS2Fixes)| `1.16.3-74dd273` | A Metamod plugin with fixes and features aimed but not limited to zombie escape 
+[CS2Fixes](https://github.com/Source2ZE/CS2Fixes)| `1.16.6-77711ee` | A Metamod plugin with fixes and features aimed but not limited to zombie escape 
 [CS2_ExecAfter](https://github.com/kus/CS2_ExecAfter) | `1.0.0` | Executes a command after server event (i.e. OnMapStart) or a delay.
 [CS2 Remove Map Weapons](https://github.com/kus/CS2-Remove-Map-Weapons) | `1.0.1` | Remove weapons from the map in CS2 as `mp_weapons_allow_map_placed 0` does not work.
 [GameModeManager](https://github.com/nickj609/GameModeManager) | `1.0.62` | <div style="background-color: #fff3cd; padding: 8px; border-left: 4px solid #ffc107;">⚠️ Waiting for fix</div> A simple Counter-Strike 2 server plugin that helps admins manage game modes and map groups.
